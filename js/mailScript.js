@@ -61,10 +61,8 @@ btninvia.addEventListener("click", function(){
             }
         })
 
-
-
         btnrestart.addEventListener("click", function(){
-
+            
         })
 
     
