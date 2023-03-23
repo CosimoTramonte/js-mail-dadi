@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body{
+    background-color: rgb(224, 224, 224);
+}
+
 .container{
     width: 80%;
     margin: 100px auto;   
@@ -39,10 +43,16 @@ label{
     color: green;
 }
 
+.pareggio{
+    font-weight: 25px ;
+    color: black;
+}
+
 .dice{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    min-height: 118px;
 }
 
 p{
@@ -67,4 +77,8 @@ h2{
 
 #mydice{
     margin-right: 20px;
+}
+
+button{
+    padding: 5px;
 }
