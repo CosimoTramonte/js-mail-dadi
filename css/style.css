@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 100px auto;   
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+#outputEmail{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.wrong{
+    font-weight: 25px ;
+    color: red;
+}
+
+.true{
+    font-weight: 25px ;
+    color: green;
+}
+
+.dice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#diceUser,
+#diceComputer{
+    font-size: 50px;
+}
+
+.buttonprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2{
+    margin-bottom: 30PX;
+}
+
+#mydice{
+    margin-right: 20px;
+}
